@@ -1,0 +1,27 @@
+Field_Group,XML_Path,Field_Name,Required,Description,Example_Value
+Channel Link,/rootfolder/assetID,rootFolderAssetID,Yes,Unique asset identifier for the root folder,ASSET_001
+Channel Link,/rootfolder/providerID,rootFolderProviderID,Yes,Provider identifier for the root folder,PROVIDER_001
+Channel Link,/callLetters,callLetters,Yes,Broadcast call letters for the channel,KABC
+Channel Link,/vcn,vcn,Yes,Virtual Channel Number assigned to the channel,7
+Channel Link,/sourceId,sourceID,Yes,Source identifier for the channel feed,SRC_1234
+Channel Link,/title,title,Yes,Display title for the channel or asset,ABC News Live
+Channel Link,/description,description,Yes,Short description displayed in the guide,Live news coverage from ABC
+Channel Link,/launchMode,launchMode,Yes,Mode used when the channel link is launched,1
+Channel Link,/barker/mode,barkerMode,Yes,Barker channel playback mode,0
+Channel Link,/barker/sourceId,barkerSourceID,Yes,Source ID for the barker channel,BSRC_5678
+CableLabs VOD AMS,AMS/Asset_Name,amsAssetName,Yes,Human-readable name of the asset (CableLabs ADI 1.1 AMS attribute),My_Movie_HD
+CableLabs VOD AMS,AMS/Asset_Class,amsAssetClass,Yes,"Asset classification (CableLabs ADI 1.1 AMS attribute). Valid values: movie, package, preview, poster",movie
+CableLabs VOD AMS,AMS/Provider,amsProvider,Yes,Content provider name (CableLabs ADI 1.1 AMS attribute),indemand.com
+CableLabs VOD AMS,AMS/Product,amsProduct,Yes,"Product type (CableLabs ADI 1.1 AMS attribute). Valid values: MOD, SVOD",MOD
+CableLabs VOD AMS,AMS/Version_Major,amsVersionMajor,Yes,Major version number of the asset record (CableLabs ADI 1.1 AMS attribute),1
+CableLabs VOD AMS,AMS/Version_Minor,amsVersionMinor,Yes,Minor version number of the asset record (CableLabs ADI 1.1 AMS attribute),0
+CableLabs VOD AMS,AMS/Creation_Date,amsCreationDate,Yes,"Date the asset record was created (CableLabs ADI 1.1 AMS attribute, format: YYYY-MM-DDThh:mm:ss)",2026-03-29T00:00:00
+CableLabs VOD App_Data,App_Data/Rating,rating,No,"Content rating (CableLabs ADI 1.1 App_Data). MPAA: G, PG, PG-13, R, NC-17, NR. TV: TV-Y, TV-Y7, TV-G, TV-PG, TV-14, TV-MA",PG-13
+CableLabs VOD App_Data,App_Data/Genre,genre,No,"Content genre (CableLabs ADI 1.1 App_Data). E.g., Action, Comedy, Drama, Horror, Documentary",Action
+CableLabs VOD App_Data,App_Data/Run_Time,runTime,No,"Content duration in seconds (CableLabs ADI 1.1 App_Data)",7200
+CableLabs VOD App_Data,App_Data/Year_Released,yearReleased,No,Four-digit year the content was originally released (CableLabs ADI 1.1 App_Data),2025
+CableLabs VOD App_Data,App_Data/Summary_Short,summaryShort,No,Short synopsis for guide display — typically 1-2 sentences (CableLabs ADI 1.1 App_Data),A thrilling action film set in the near future.
+CableLabs VOD App_Data,App_Data/Summary_Long,summaryLong,No,Long synopsis for asset detail page — full paragraph (CableLabs ADI 1.1 App_Data),"In the year 2050, one hero must save the world from an unstoppable threat."
+CableLabs VOD App_Data,App_Data/Suggested_Price,suggestedPrice,No,"Suggested retail price in USD (CableLabs ADI 1.1 App_Data, two decimal places)",5.99
+CableLabs VOD App_Data,App_Data/Licensing_Window_Start,licensingWindowStart,No,"Start of the content availability window (CableLabs ADI 1.1 App_Data, format: YYYY-MM-DDThh:mm:ss)",2026-01-01T00:00:00
+CableLabs VOD App_Data,App_Data/Licensing_Window_End,licensingWindowEnd,No,"End of the content availability window (CableLabs ADI 1.1 App_Data, format: YYYY-MM-DDThh:mm:ss)",2026-12-31T23:59:59
